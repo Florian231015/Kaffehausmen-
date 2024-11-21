@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f5eb;
+    color: #4e342e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: underline;
+    color: #8b5e3c;
+  }
+  
+  .menu-section {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #8b5e3c;
+    margin: 30px 0 10px 0;
+    padding-bottom: 5px;
+  }
+  
+  #drinks::before, #food::before {
+    margin-right: 5px;
+    font-size: 1.5em;
+  }
+  
+  #drinks::before {
+    content: "☕";
+    color: #b5651d;
+  }
+  
+  #food::before {
+    content: "🍰";
+    color: #b5651d;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-bottom: 2px solid #b5651d;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .menu-item-name {
+    font-weight: 700;
+    color: #4e342e;
+  }
+  
+  .menu-item-price {
+    font-weight: 400;
+    color: #4e342e;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
